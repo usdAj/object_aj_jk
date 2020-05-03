@@ -1,0 +1,355 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang=ja-JP>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" href="./mystyle.css" rel="stylesheet">
+    <title>オブジェクト指向設計（2020年度 木2）</title>
+  </head>
+  <body>
+
+   <h1>オブジェクト指向設計（2020年度 木2）</h1>
+       
+   <div id="left">
+   <h2>コンテンツ</h2>
+   <ul>
+     <li>第1章 <a href="#chapter1">基本的な用語</a></li>
+     <!--<li>第2章 <a href="#chapter2">オブジェクト指向開発</a></li>
+     <li>第3章 <a href="#chapter3">設計の問題</a></li>
+     <li>第4章 <a href="#chapter4">オブジェクト指向設計の原則</a></li>
+     <li>第5章 <a href="#chapter5">単一責任の原則</a></li>
+     <li>第6章 <a href="#chapter6">Visitor パターン</a></li>
+     <li>第7章 <a href="#chapter7">LSP、DIP、ISP</a></li>
+     <li>第8章 <a href="#chapter8">パターン技術</a></li>
+     <li>第9章 <a href="#chapter9">ユースケース</a></li>
+     <li>第10章 <a href="#chapter10">実例</a></li>-->
+   </ul>
+   
+
+   
+   <h3><a name="chapter1">第1章 </a></h3>
+   <ul>
+     <li><a href="B2_7.htm">クラス図</a></li>
+     <li><a href="B2_2.htm">オブジェクト図</a></li>
+   </ul>
+   <ol>
+     <li><a href="C1_1.htm">可視性</a></li>
+     <li><a href="C1_2.htm">クラス間の関係</a></li>
+     <li><a href="C1_3.htm">汎化、特化（継承）</a></li>
+     <li><a href="C1_4.htm">実現</a></li>
+     <li><a href="C1_5.htm">関連</a></li>
+     <li><a href="C1_6.htm">依存</a></li>
+     <li><a href="C1_7.htm">関連（集約有り）</a></li>
+   </ol>
+   
+   <!--
+   <h3><a name="chapter2">第2章 オブジェクト指向開発</a></h3>
+   
+   <ol>
+     <li><a href="C2_1.htm">オブジェクト指向開発</a></li>
+     <li><a href="C2_2.htm">オブジェクト指向分析</a></li>
+     <li><a href="C2_3.htm">機能外要求</a></li>
+     <li><a href="C2_4.htm">User インタフェース</a></li>
+     <li><a href="C2_5.htm">Student クラスとTeacher クラス</a></li>
+     <li><a href="C2_6.htm">Student クラスのソースコード</a></li>
+     <li><a href="C2_7.htm">Teacher クラスのソースコード</a></li>
+     <li><a href="C2_8.htm">演習2-1</a></li>
+     <li><a href="C2_9.htm">UserLocator クラスのソースコード</a></li>
+     <li><a href="C2_10.htm">演習2-2</a></li>
+     <li><a href="C2_11.htm">演習2-2 の解答</a></li>
+   </ol>
+   
+   <ul>
+     <li><a href="UserLocator.class">UserLocator.class</a></li>
+     <li><a href="Teacher.java">Teacher.java</a></li>
+   </ul>
+   
+   <h3><a name="chapter3">第3章 設計の問題</a></h3>
+   
+   <ol>
+     <li><a href="C3_1.htm">演習3-1</a></li>
+     <li><a href="C3_2.htm">演習3-1 の解答1（返却値を利用した方法）</a></li>
+     <li><a href="C3_3.htm">演習3-1 の解答2（条件分岐による方法）</a></li>
+     <li><a href="C3_4.htm">演習3-1 の解答3（メソッド追加の方法）</a></li>
+     <li><a href="C3_5.htm">ソフトウェア設計の問題点</a></li>
+     <li><a href="C3_6.htm">返却値を利用した方法の問題点</a></li>
+     <li><a href="C3_7.htm">Staff クラス</a></li>
+     <li><a href="C3_8.htm">クラス間の関係</a></li>
+     <li><a href="C3_9.htm">条件分岐による方法の修正点</a></li>
+     <li><a href="C3_10.htm">メソッド追加の方法の追加点</a></li>
+     <li><a href="C3_11.htm">条件分岐による方法のクラス図</a></li>
+     <li><a href="C3_12.htm">メソッド追加の方法のクラス図</a></li>
+   </ol>
+   
+   
+   <h3><a name="chapter4">第4章 オブジェクト指向設計の原則</a></h3>
+   <ol>
+     <li><a href="C4_1.htm">オブジェクト指向設計の原則</a></li>
+     <li><a href="C4_2.htm">Iterator</a></li>
+     <li><a href="C4_3.htm">引数としてのIterator</a></li>
+     <li><a href="C4_4.htm">演習4-1</a></li>
+     <li><a href="C4_5.htm">演習4-1 の解答案</a></li>
+     <li><a href="C4_6.htm">User インタフェースへのメソッド追加</a></li>
+     <li><a href="C4_7.htm">print メソッドのみでの解決</a></li>
+     <li><a href="C4_8.htm">新しいインタフェースの追加</a></li>
+     <li><a href="C4_9.htm">演習4-1 の解答案の問題点</a></li>
+     <li><a href="C4_10.htm">インタフェースの継承（Employee の追加）</a></li>
+     <li><a href="C4_11.htm">演習4-1 の解答</a></li>
+     <li><a href="C4_12.htm">演習4-2</a></li>
+   </ol>
+   
+   
+   <h3><a name="chapter5">第5章 単一責任の原則</a></h3>
+   
+   <ol>
+     <li><a href="C5_1.htm">演習4-2 の解答</a></li>
+     <li><a href="C5_2.htm">Employee インタフェースへのメソッドの追加</a></li>
+     <li><a href="C5_3.htm">print メソッド</a></li>
+     <li><a href="C5_4.htm">ソースコード腐敗の兆候</a></li>
+     <li><a href="C5_5.htm">抽象クラスの導入</a></li>
+     <li><a href="C5_6.htm">AbstractEmployee 抽象クラス</a></li>
+     <li><a href="C5_7.htm">Teacher クラス</a></li>
+     <li><a href="C5_8.htm">Staff クラス</a></li>
+     <li><a href="C5_9.htm">抽象クラスの役割と「単一責任の原則」</a></li>
+     <li><a href="C5_10.htm">再利用と実クラス</a></li>
+   </ol>
+   
+   
+   <h3>第5章 追加（Template Method パターン）</h3>
+   <ol>
+     <li><a href="E5_1.htm">抽象クラスの導入</a></li>
+     <li><a href="E5_2.htm">AbstractDice クラス</a></li>
+     <li><a href="E5_3.htm">Dice クラス</a></li>
+     <li><a href="E5_4.htm">オーバーロード</a></li>
+     <li><a href="E5_5.htm">オーバーロードの使用例</a></li>
+     <li><a href="C5.htm">技術用語</a></li>
+   </ol>
+   
+   <ul>
+     <li><a href="OverLoader.java">OverLoader.java</a></li>
+     <li><a href="C5_11.java">C5_11.java</a></li>
+   </ul>
+   
+   
+   
+   <h3><a name="chapter6">第6章 Visitor パターン</a></h3>
+   
+   <ol>
+     <li><a href="C6_1.htm">クラス階層によるインタフェースの分離</a></li>
+     <li><a href="C6_2.htm">PrintVisitor クラス</a></li>
+     <li><a href="C6_3.htm">演習6-1</a></li>
+     <li><a href="C6_4.htm">User インタフェースへのメソッドの追加</a></li>
+     <li><a href="C6_5.htm">ダブルディスパッチ</a></li>
+     <li><a href="C6_6.htm">ライブラリのクラス図</a></li>
+     <li><a href="C6_7.htm">実クラスのクラス図</a></li>
+     <li><a href="C6_8.htm">UserLocator クラスの拡張</a></li>
+     <li><a href="C6_9.htm">UserLocator の・E竭闢_</a></li>
+     <li><a href="C6_10.htm">UserLocator の分離</a></li>
+   </ol>
+   
+   
+   <h3><a name="chapter7">第7章 LSP、DIP、ISP</a></h3>
+   
+   <ol>
+     <li><a href="C7_1.htm">リスコフの置換原則</a></li>
+     <li><a href="C7_2.htm">依存関係逆転の原則</a></li>
+     <li><a href="C7_3.htm">インタフェース分離の原則</a></li>
+     <li><a href="C7_4.htm">要素の間に","を入れて出力する</a></li>
+   </ol>
+   
+   
+   <h3><a name="chapter8">第8章 パターン技術</a></h3>
+   
+   <ol>
+     <li><a href="C8_1.htm">パターン技術</a></li>
+     <li><a href="C8_2.htm">パターン言語</a></li>
+     <li><a href="C8_3.htm">パターン言語例</a></li>
+     <li><a href="C8_4.htm">Composite パターン</a></li>
+     <li><a href="C8_5.htm">Composite パターンのサンプルコード</a></li>
+     <li><a href="C8_6.htm">Composite パターンを適応したWallet クラス</a></li>
+   </ol>
+   
+   <ul>
+     <li><a href="Value.java">Value.java</a></li>
+     <li><a href="Coin50.java">Coin50.java</a></li>
+     <li><a href="Coin100.java">Coin100.java</a></li>
+     <li><a href="Wallet.java">Wallet.java</a></li>
+     <li><a href="B8_1.java">B8_1.java</a></li>
+   </ul>
+   
+   
+   
+   <h3><a name="chapter9">第9章 ユースケース</a></h3>
+   
+   <ol>
+     <li><a href="C9_1.htm">要求におけるUML</a></li>
+     <li><a href="C9_2.htm">ユースケース図</a></li>
+     <li><a href="C9_3.htm">ユースケース（図）の役割</a></li>
+     <li><a href="C9_4.htm">ユースケースの実用例（初期）</a></li>
+     <li><a href="C9_5.htm">ユースケースの実用例（最終段階）</a></li>
+     <li><a href="C9_6.htm">アクティビティ図</a></li>
+     <li><a href="C9_7.htm">アクティビティ図の実用例</a></li>
+   </ol>
+   <!--
+   <h3><a name="chapter10">第10章 実例</a></h3>
+   
+   <ol>
+     <li><a href="C10_1.htm">年次縦断型PBL科目の新設（実例）</a></li>
+     <li><a href="C10_2.htm">問題点</a></li>
+     <li><a href="C10_3.htm">手作業とシステム</a></li>
+     <li><a href="C10_4.htm">戦略</a></li>
+     <li><a href="C10_5.htm">ユースケースのアクター</a></li>
+     <li><a href="C10_6.htm">ユースケース</a></li>
+     <li><a href="C10_7.htm">ユースケース文章</a></li>
+     <li><a href="C10_8.htm">内部設計（クラス図）</a></li>
+   </ol>
+   -->
+   </div>
+   
+   <div id="right">
+   
+   
+   <h2>授業予定</h2>
+   
+   <table class="class">
+   <tr>
+     <th>授業実施日</th>
+     <th>内容</th>
+   </tr>
+   
+   <tr>
+     <td>1回目  5月7日（木）</td>
+     <td>
+       <p>ガイダンス</p>
+       <p><a href="http://docs.oracle.com/javase/jp/8/docs/api/">javaDoc</a></p>
+       <p>Javaとエディタのインストールが必要な人（インストール済みの人は、コマンドプロンプトで「javac -version」で確認できます。）</p>
+       <p>JavaのJDKは，OracleのJDKか、AdoptOpenJDKのインストールが必要になります。<p>
+       <p>「Oracleプロファイルへのサインイン」のページでは，アカウントが必要になります．「プロファイルの作成」をして，サインインしてください．<p>
+       <p><a href="../プログラミング環境構築.pdf">AdoptOpenJDKとエディタのインストールのページへ</a></p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>2回目  5月7日（木）</td>
+     <td>
+       <p>可視性</p>
+     </td>
+   </tr>
+   <!--
+   <tr>
+     <td>3回目  5月14日（木）</td>
+     <td>
+       <p>クラス間の関係</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=8be6b9577819c3b3a19201fe2ffa59e1&page=1">WebClassでのソースコードの提出３</a></p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>4回目  5月21日（木）</td>
+     <td>
+       <p>オブジェクト図</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=f05644f19d879239f3afd444c82058c8&page=1">アンケート提出</a>
+     </td>
+   </tr>
+  
+   <tr>
+     <td>5回目  5月28日（木）</td>
+     <td>
+       <p>Userクラス、UserLocatorクラス</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=3d6a3c3244e5ef6596ae6fb5509cd647&page=1">アンケート提出</a> 
+     </td>
+   </tr>
+   
+   <tr>
+     <td>6回目  6月4日（木）</td>
+     <td>
+       <p>ソフトウェア設計の問題点</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=69003166d58cdc1ff716af41326cde0b&page=1">アンケート提出</a>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>7回目  6月11日（木）</td>
+     <td>
+       <p>オブジェクト指向設計の原則</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=87f9beb7ab2c1f8359a60692400aabaf&page=1">アンケート提出</a></p> 
+     </td>
+   </tr>
+   <tr>
+     <td>8回目  6月18日（木）</td>
+     <td>
+       <p>抽象クラス</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=24f4647d7de8dbe68e882231b834b887&page=1">アンケート提出</a></p>
+       <p>アクセス修飾子（protected）とDiceクラス</p>
+       <a href="http://www.asp.sie.dendai.ac.jp/aj/2017/c3/pro/B3_5.htm">参考資料2_1（Diceクラス）</a><br/>
+       <a href="http://www.asp.sie.dendai.ac.jp/aj/2017/c3/pro/B5_8.htm">参考資料2_2（EvenDiceクラス）</a><br/>
+       <a href="http://www.asp.sie.dendai.ac.jp/aj/2017/c3/pro/B5_9.htm">参考資料2_3（OddDiceクラス）</a><br/>
+       <a href="http://www.asp.sie.dendai.ac.jp/aj/2017/c3/pro/B5_11.htm">参考資料2_4（クラス図）</a><br/>
+       <a href="http://www.asp.sie.dendai.ac.jp/aj/2017/c3/pro/B5_12.htm">参考資料2_5（インタフェースの具象クラスの関係の記述・j</a></p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>9回目  6月25日（木）</td>
+     <td>
+       <p>オーバーロードとVisitor</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=aeeb607066803d808a01f4ad4a01822e&page=1">アンケート提出</a></p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>10回目  7月2日（木）</td>
+     <td>
+       <p>オブジェクト指向設計の原則・演習</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=2aca0754ae63646459c322e7a93120ba&page=1">アンケート提出</a></p>
+     </td>
+   </tr>
+   
+   
+   <tr>
+     <td>11回目  7月9日（木）</td>
+     <td>
+       <p><a href="オブジェクト指向設計中間演習（２０１９）.pdf">演習問題</a></p>
+       <p>解説・テスト</p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>12回目  7月16日（木）</td>
+     <td>
+       <p>パターン技術、CompositeパターンとVisitorパターン</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=fa7d0abf687eff47910abfdd82003bcc&page=1">アンケート提出</a></p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>13回目  7月23日（木）</td>
+     <td>
+       <p>演習・解説</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=8cfc00e2357f20b057964382b80a1751&page=1">アンケート提出</a></p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>14回目  7月23日（木）</td>
+     <td>
+       <p>テスト</p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=d31cae8a13f57a87502fe2ba17f9c050&page=1">アンケート提出</a></p>
+     </td>
+   </tr>
+   
+   <tr>
+     <td>15回目 （木）</td>
+     <td>
+       <p>ユースケース</p>
+       <p><a href="20190718.pdf">オブジェクト指向演習</a></p>
+       <p><a href="https://els.sa.dendai.ac.jp/webclass/login.php?id=7f5f340411fa11947e547a812eee0567&page=1">アンケート提出</a></p>
+     </td>
+   </tr>
+   -->
+   
+   </table>
+   
+   </div>
+   
+  </body>
+</html>
